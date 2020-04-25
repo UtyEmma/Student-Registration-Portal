@@ -1,4 +1,0 @@
-# HTTrack Website Copier Cookie File
-# This file format is compatible with Netscape cookies
-themelamp.com	TRUE	/	FALSE	1999999999	PHPSESSID	8739e58bbad25940ee49e28ca26c27e2
-
