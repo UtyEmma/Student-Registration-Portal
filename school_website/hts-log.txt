@@ -1,0 +1,24 @@
+HTTrack3.48-19+htsswf+htsjava launched on Tue, 31 Dec 2019 05:47:35 at http://themelamp.com/html/learnedu/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:71.0) Gecko/20100101 Firefox/71.0" -%F  -%l "en, *" http://themelamp.com/html/learnedu/ -O1 "C:\wamp64\www\regForm\school_website" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+05:49:20	Warning: 	file not stored in cache due to bogus state (broken size, expected 280191 got 2423): themelamp.com/html/learnedu/images/events/event1.jpg
+05:49:39	Warning: 	file not stored in cache due to bogus state (broken size, expected 98497 got 98709): themelamp.com/html/learnedu/images/blog/blog1.jpg
+05:52:10	Warning: 	Retry after error -4 (No data (connection closed)) at link themelamp.com/html/learnedu/images/team/team2.jpg (from themelamp.com/html/learnedu/)
+05:52:10	Warning: 	Retry after error -4 (Incorrect length (2423 Bytes, 280191 expected)) at link themelamp.com/html/learnedu/images/events/event1.jpg (from themelamp.com/html/learnedu/)
+05:52:26	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/css/owl.video.play.png (from themelamp.com/html/learnedu/css/owl.carousel.min.css)
+05:52:26	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/team.html (from themelamp.com/html/learnedu/teacher.html)
+05:52:26	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/team2.html (from themelamp.com/html/learnedu/teacher2.html)
+05:52:26	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/team-single.html (from themelamp.com/html/learnedu/teacher-single.html)
+05:52:26	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/blogs-grid.html (from themelamp.com/html/learnedu/blogs.html)
+05:52:27	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/blog-left-sidebar.html (from themelamp.com/html/learnedu/blogs-left-sidebar.html)
+05:52:27	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/blogs-single.html (from themelamp.com/html/learnedu/blog-single-left-sidebar.html)
+05:52:30	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/GET (from themelamp.com/html/learnedu/js/particles.min.js)
+05:52:30	Error: 	"Not Found" (404) at link themelamp.com/html/learnedu/Error pJS - No image.src (from themelamp.com/html/learnedu/js/particles.min.js)
+
+HTTrack Website Copier/3.48-19 mirror complete in 4 minutes 54 seconds : 124 links scanned, 111 files written (7103198 bytes overall) [5851603 bytes received at 19903 bytes/sec], 2475982 bytes transferred using HTTP compression in 69 files, ratio 36%
+(9 errors, 4 warnings, 0 messages)

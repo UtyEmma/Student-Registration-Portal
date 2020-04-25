@@ -1,0 +1,84 @@
+/*Registration and Login Page*/
+body{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("../img/2016-08-18-hs-student-in-class.jpg");
+    background-size: cover;
+}
+
+.side_bar{
+    height: 100% !important;
+    position: fixed;
+    right: 0;
+}
+
+.side_content{
+    margin-top: 35%;
+}
+
+/*Dashboard*/
+.side_nav{
+    height: 100% !important;
+    position: fixed;
+    left: 0rem;
+    z-index: 2;
+}
+
+.nav-link:hover{
+    background: #1b1e21;
+}
+
+.top_bar{
+    height: 3rem !important;
+    position: fixed;
+    z-index: 1;
+}
+
+.instagram:hover {
+    color: deeppink !important;
+}
+
+.facebook:hover {
+    color: rgb(0, 123, 255) !important;
+}
+
+.twitter:hover {
+    color: cyan !important;
+}
+
+.out_btn{
+    cursor: pointer;
+}
+.out_btn:hover{
+    background: #fafafa !important;
+    color: #1b1e21 !important;
+}
+
+.welcome_text:hover {
+    color: rgb(0, 123, 255);
+}
+
+footer{
+    width: 100% !important;
+    position: relative;
+    bottom: 0;
+    z-index: 0;
+}
+
+.company{
+    cursor: pointer;
+}
+.company:hover {
+    color: lightcyan !important;
+}
+
+@media screen and (max-width: 850px) {
+
+    .side_bar{
+        height: 100px;
+        position: relative;
+        display: grid;
+        justify-content: left;
+        align-content: left;
+    }
+}
